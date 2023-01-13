@@ -1,12 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace GameLibrary.DAL.Domain.Entities
+﻿namespace GameLibrary.DAL.Domain.Entities
 {
-    internal class Genre
+    public class Genre
     {
+        public int GenreId { get; set; }
+        public string GenreName { get; set;}
+        public List<Game> Game { get; set;}
     }
 }

@@ -1,12 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace GameLibrary.DAL.Domain.Entities
+﻿namespace GameLibrary.DAL.Domain.Entities
 {
-    internal class Programmer
+    internal class Programmer : CompanyWorker
     {
+        public string JobPosition { get; set; }
+        public List<ProgrammingLanguage> ProgrammingLanguage { get; set; }
     }
 }
