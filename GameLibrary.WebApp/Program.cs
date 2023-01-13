@@ -1,7 +1,16 @@
+using GameLibrary.DAL.Database.Contexts;
+using Microsoft.EntityFrameworkCore;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+
+//connection string
+builder.Services.AddDbContext<GamesDbContext>(options =>
+{
+    options.UseSqlServer(builder.Configuration.GetConnectionString("GamesConnectionString"));
+});
 
 var app = builder.Build();
 
