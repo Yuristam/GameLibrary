@@ -6,4 +6,8 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\GameLibrary.DAL\GameLibrary.DAL.csproj" />
+  </ItemGroup>
+
 </Project>
