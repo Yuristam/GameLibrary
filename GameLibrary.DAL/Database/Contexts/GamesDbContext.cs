@@ -9,7 +9,14 @@ namespace GameLibrary.DAL.Database.Contexts
         {
 
         }
-        public DbSet<Game> Games { get; set; }
-        public DbSet<Company> Company { get; set; }
+        public virtual DbSet<Game> Games { get; set; }
+        public virtual DbSet<Genre> Genres { get; set; }
+        public virtual DbSet<Company> Companies { get; set; }
+        public virtual DbSet<CompanyWorker> CompanyWorkers { get; set; }
+        //public virtual DbSet<Programmer> Programmers { get; set; }
+        //public virtual DbSet<ArtCreator> ArtCreators { get; set; }
+        //public virtual DbSet<Manager> Managers { get; set; }
+//        public virtual DbSet<ProgrammingLanguage> ProgrammingLanguages { get; set;}
+    
     }
 }
