@@ -1,0 +1,30 @@
+﻿body {
+    background-image: url('/lib/images/home page background image.png');
+    background-size: cover;
+    /*code below is needed to darken the background photo*/
+    background-color: #05214d;
+    background-blend-mode: multiply; 
+    text-align: center;
+    margin: 50px;
+}
+h1 {
+    color: #ff8b01;
+    letter-spacing: -10;
+    font-size: 8em;
+    font-family: consolas;
+    text-align: start;
+    margin: 0;
+    margin-left: 110px;
+}
+span{
+    color:white;
+}
+img{
+    width: 1200px;
+}
+card{
+    /*width: 1200px;
+    height: 500px;*/
+    color:aliceblue;
+}
+

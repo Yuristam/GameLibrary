@@ -1,12 +1,17 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Linq.Expressions;
 
 namespace GameLibrary.DAL.Repositories
 {
-    internal interface IRepository
+    public interface IRepository<T> where T : class
     {
+        IEnumerable<T> GetAll();
+        T GetById(object id);
+        void Insert(T obj);
+        void Update(T obj);
+        void Delete(object id);
+        IEnumerable<T> FindBy(Expression<Func<T, bool>> predicate);
+        IEnumerable<T> GetWithInclude(Expression<Func<T, bool>>? predicate, params Expression<Func<T, object>>[] paths);
+        void Save();
+
     }
 }

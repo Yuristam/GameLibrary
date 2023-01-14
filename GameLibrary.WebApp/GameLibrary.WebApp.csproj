@@ -10,4 +10,8 @@
     <ProjectReference Include="..\GameLibrary.DAL\GameLibrary.DAL.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="wwwroot\lib\images\" />
+  </ItemGroup>
+
 </Project>
