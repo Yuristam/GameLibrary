@@ -8,7 +8,7 @@
     margin: 50px;
 }
 h1 {
-    color: #ff8b01;
+    color: #0058b0;
     letter-spacing: -10;
     font-size: 8em;
     font-family: consolas;
@@ -16,15 +16,133 @@ h1 {
     margin: 0;
     margin-left: 110px;
 }
+h2#headerText {
+    position: relative;
+    margin: auto;
+    margin-left: -780px;
+    color: white;
+}
+h2 {
+    position: absolute;
+    color: black;
+    margin: 0;
+    margin-top: 150px;
+    margin-left: 100px;
+    font-family: consolas;
+    font-size: 4em;
+}
+h3 {
+    position: absolute;
+    text-align: left;
+    margin: 0;
+    margin-top: 120px;
+    margin-left: 180px;
+    font-family: consolas;
+    font-size: 3em;
+    color: grey;
+}
+span#textLibrary{
+    color: cadetblue;
+}
 span{
     color:white;
 }
 img{
     width: 1200px;
+    height: 750px;
 }
-card{
-    /*width: 1200px;
-    height: 500px;*/
-    color:aliceblue;
+.card {
+    margin: auto;
+    width: 1200px;
+    height: 750px;
+    background: rgba(255,255,255);
+    color: white;
 }
-
+p {
+    position: absolute;
+    margin: auto;
+    margin-top: 50px;
+    margin-left: 600px;
+    margin-right: 200px;
+    color: black;
+    text-align: left;
+    font-family: arial;
+}
+#secondText {
+    margin-top: 100px;
+    color: grey;
+}
+.icons {
+    position: absolute;
+    width: 55px;
+    height: auto;
+    margin: auto;
+    margin-top: 400px;
+    margin-left: -350px;
+}
+#i2 {
+    margin-left: -20px;
+}
+#i3 {
+    margin-left: 310px;
+}
+#iconFirstTitle {
+    position: absolute;
+    margin: auto;
+    margin-top: 475px;
+    margin-left: 210px;
+    color: black;
+    font-family: arial;
+    font-size: 1em;
+}
+#iconFirstText {
+    position: absolute;
+    margin: auto;
+    margin-top: 500px;
+    margin-left: 140px;
+    margin-right: 945px;
+    color: grey;
+    font-family: arial;
+    text-align: center;
+    font-size: 12;
+}
+#iconSecondTitle {
+    position: absolute;
+    margin: auto;
+    margin-top: 475px;
+    margin-left: 557px;
+    color: black;
+    font-family: arial;
+    font-size: 1em;
+}
+#iconSecondText {
+    position: absolute;
+    margin: auto;
+    margin-top: 500px;
+    margin-left: 470px;
+    margin-right: 600px;
+    color: grey;
+    font-family: arial;
+    text-align: center;
+    font-size: 12;
+}
+#iconThirdTitle {
+    position: absolute;
+    margin: auto;
+    margin-top: 475px;
+    margin-left: 875px;
+    color: black;
+    font-family: arial;
+    font-size: 1em;
+}
+#iconThirdText {
+    position: absolute;
+    margin: auto;
+    margin-top: 500px;
+    margin-left: 820px;
+    margin-right: 300px;
+    color: grey;
+    font-family: arial;
+    text-align: center;
+    font-size: 12;
+}
